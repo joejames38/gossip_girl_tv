@@ -1,12 +1,12 @@
 {
   "channelInfos": [
 	{
-    	"Channelkey": "gossip_girl",
-    	"ChannelName": "Gossip Girl",
+    	"Channelkey": "gossip_girl2",
+    	"ChannelName": "Gossip Girl2",
 		"ChannelDescription": "What's Happening Around the Valley?",
-		"ShowDays":"AllDays",
+		"ShowDays":"Fri",
     	"ChannelType":{
-			"currentChannel": 2818201,
+			"currentChannel": 2818204,
 			"ScreenFile":"assets/rita3.png",
 			"animation":{
 				"AnimationInterval": 250,
@@ -90,19 +90,42 @@
 					"10174":{"ADPrice" : 0,"ItemID" : ["121"],"QuestionText":"I have heard of some folks wearing pans on their head. There is some strange fashion in Pelican Town. "},
 					"10175":{"ADPrice" : 0,"ItemID" : ["122"],"QuestionText":"Did anyone else read that strange book saying dwarven folk aren't from this planet? "}
 				},
-				"Select1" : "Nice!",
-				"Select2" : "Say Again!"
+				"Select1" : "vanilla.response.yes",
+				"Select2" : "vanilla.response.no"
 			}	
 		}
     },
 	{
     	"Channelkey": "gossip_lemur",
-    	"ChannelName": "Gossip Lemur",
+    	"ChannelName": "Lemuverse Visions",
 		"ChannelDescription": "What's Happening Around East Scarp?",
-		"ShowDays":"Thu",
+		"ShowDays":"Tue",
     	"ChannelType":{
 			"currentChannel": 2818202,
 			"ScreenFile":"assets/rita_lemur.png",
+			"animation":{
+				"AnimationInterval": 250,
+				"AnimationLength":3
+			},
+			"ad":{
+				"RandomQuestion":{
+					"20101":{"ADPrice" : 0,"ItemID" : ["(BC)71"],"QuestionText":"There is a rumor that the orchard is only accessible by ghosts with that bridge out.  But who would check it out night?" },
+					"20102":{"ADPrice" : 0,"ItemID" : ["122"],"QuestionText":"What's with those strange goats?  They look as bizarre as those bewitched chickens."},
+					"20103":{"ADPrice" : 0,"ItemID" : ["122"],"QuestionText":"What's "}
+				},
+				"Select1" : "Nice!",
+				"Select2" : "Say Again!"
+			}	
+		}
+    },
+		{
+    	"Channelkey": "gossip_ridge",
+    	"ChannelName": "Ridgeside Secrets",
+		"ChannelDescription": "What's at the top of the mountain?",
+		"ShowDays":"Sat",
+    	"ChannelType":{
+			"currentChannel": 2818202,
+			"ScreenFile":"assets/rita_ridge.png",
 			"animation":{
 				"AnimationInterval": 250,
 				"AnimationLength":3

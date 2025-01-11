@@ -1,0 +1,12 @@
+{
+    "Name": "Gossip Girl TV",
+    "Author": "joejames38",
+    "Version": "2.0.0",
+    "Description": "A little mod that adds a new daily TV show. It's magic rewards those interested in Gossip",
+    "UniqueID": "joejames38.gossipgirl.strings",
+    "UpdateKeys": ["Nexus:28182"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "2.4.4",
+    }
+}
