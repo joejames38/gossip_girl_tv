@@ -2,7 +2,7 @@
     "Name": "Gossip Girl TV",
     "Author": "joejames38",
     "Version": "2.0.0",
-    "Description": "A little mod that adds a new daily TV show. It's magic rewards those interested in Gossip",
+    "Description": "Translation support for the Gossip Girl Mod",
     "UniqueID": "joejames38.gossipgirl.strings",
     "UpdateKeys": ["Nexus:28182"],
     "ContentPackFor": {
